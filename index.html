@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe Website</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+    color: #f5f5f5;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #2c2c2c;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background: #3a3a3a;
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: #2a2a2a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+footer {
+    background: #2c2c2c;
+    text-align: center;
+    padding: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #d4af37;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>My Recipe Website</h1>
+<p>Simple • Delicious • Easy to Follow</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#recipe">Recipe</a>
+<a href="#about">About Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<section id="home">
+<div class="card">
+<h2>Welcome</h2>
+<p>Welcome to our recipe! We're glad you stopped by. Here you can find simple and tasty recipes that
+    are easy to follow. From snacks to full meals and sweet dessert, we prepared recipes that
+    you can cook at home. Have fun cooking and enjoy every bite!
+</p>
+</div>
+</section>
+
+
+<section id="recipe">
+
+<div class="card">
+<h2>Appetizer — Fresh Garden Salad</h2>
+<img src="salad.jpg" alt="Fresh Garden Salad">
+<details>
+    <summary>View</summary>
+<ul>
+<li>Lettuce</li>
+<li>Tomato</li>
+<li>Cucumber</li>
+<li>Dressing</li>
+</ul>
+<ol>
+<li>Wash your leafy greens and dry them completely using a salad spinner or by laying
+    them on a clean towel.
+</li>
+<li>Slice, chop, or dice your additional vegetables.</li>
+<li>In a small jar or bowl, whisk together the olive oil, lemon juice/vinegar,
+    salt, pepper, and optional honey until combined.
+</li>
+<li>Place the dried, torn, or chopped lettuce into a large bowl.</li>
+<li>Just before serving, pour the dressing over the salad and toss gently to coat everything lightly.</li>
+<li>Top with cheeses, nuts, or croutons for extra crunch and flavor.</li>
+</ol>
+</details>
+</div>
+
+<div class="card">
+<h2>Main Course — Garlic Butter Chicken</h2>
+<img src="chicken.jpg" alt="Garlic Butter Chicken">
+<details>
+    <summary>View</summary>
+<ul>
+<li>Chicken breast</li>
+<li>Garlic</li>
+<li>Butter</li>
+<li>Salt & pepper</li>
+</ul>
+ <ol>
+<li>Pat 1.5 lbs of chicken breasts dry with paper towels to ensure a good sear.</li>
+<li>In a large skillet, melt 1 tbsp of butter with 1 tbsp of olive oil over medium-high heat.</li>
+<li>Remove the chicken from the skillet and set it aside on a plate.</li>
+<li>Reduce the heat to medium.</li>
+<li>Pour in 1/2 cup of chicken broth. Use a wooden spoon to scrape up all the browned bits.</li>
+<li>Let the sauce simmer for 2-3 minutes to reduce slightly.</li>
+<li>Return the chicken and any resting juices back to the skillet.</li>
+</ol>
+</details>
+</div>
+
+<div class="card">
+<h2>Dessert — Chocolate Mug Cake</h2>
+<img src="cake.jpg" alt="Chocolate Mug Cake">
+<details>
+    <summary>View</summary>
+<ul>
+<li>Flour</li>
+<li>Cocoa powder</li>
+<li>Sugar</li>
+<li>Milk</li>
+</ul>
+<ol>
+<li>In your mug, stir together the dry ingredients.</li>
+<li>Stir in the vegetable oil and milk until the mixture is smooth.</li>
+<li>Microwave on high for one minute and then enjoy!.</li>
+</ol>
+</details>
+</div>
+
+<div class="card">
+<h2>Drink — Lemon Iced Tea</h2>
+<img src="icedtea.jpg" alt="Lemon Iced Tea">
+<details>
+    <summary>View</summary>
+<ul>
+<li>Tea</li>
+<li>Lemon</li>
+<li>Sugar</li>
+<li>Ice</li>
+</ul>
+<ol>
+<li>Bring 4 cups of water to a rolling boil in a saucepan or kettle.</li>
+<li>Remove the water from the heat.</li>
+<li>Remove the tea bags or strain the leaves.</li>
+<li>Pour the hot tea concentrate into your pitcher and add 4 cups of cold water.</li>
+<li>Let the tea sit until it reaches room temperature, then place it in the refrigerator until
+    thoroughly chilled.</li>
+<li>Just before serving, stir in fresh lemon juice, lemon slices, and mint leaves.</li>
+<li>Fill glasses with ice cubes and pour the tea over them.</li>
+</ol>
+</details>
+</div>
+
+</section>
+
+
+<section id="about">
+<div class="card">
+<h2>About Us</h2>
+<p>We believes that good food brings people together. I built this recipe website to share easy guides and flavorful dishes. We focus on clear instructions and everyday ingredients so anyone can cook with confidence.</p>
+</div>
+</section>
+
+
+<section id="contact">
+<div class="card">
+<h2>Contact Us</h2>
+
+<form onsubmit="alert('Message sent!'); return false;">
+<label>Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Message</label>
+<textarea rows="5" required></textarea>
+
+<button type="submit">Send</button>
+</form>
+
+</div>
+</section>
+
+<footer>
+ <p>2026 Recipe Website</p>
+</footer>
+
+</body>
+</html>
